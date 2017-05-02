@@ -96,6 +96,3 @@
 + Maybe ask a friend to write it?
 + Build for the web.
 + Share with our fantastic [community](https://community.gamedev.tv/c/unity/S03-text101)
-
----
-Find out more about our [Complete Unity Developer Course](https://www.udemy.com/unitycourse?couponCode=GitHubDiscount).

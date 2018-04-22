@@ -13,5 +13,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   storyText: "You walk through the courtyard dressed as a cleaner. \n\nThe guard tips
     his hat at you as you waltz past, claiming your freedom. Your heart races as you
-    walk into the sunset.\n\nPress P to Play again."
-  nextStates: []
+    walk into the sunset.\n\nPress 0 to play again."
+  nextStates:
+  - {fileID: 11400000, guid: 9b659dab1650d41fdb431699d6c09448, type: 2}

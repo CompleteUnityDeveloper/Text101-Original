@@ -15,5 +15,6 @@ MonoBehaviour:
     you could find something around to help enourage it open?
 
 
-    Press R to Return to the corridor'
-  nextStates: []
+    Press 0 to return to the corridor.'
+  nextStates:
+  - {fileID: 11400000, guid: 1830cf58efb1c494b925125a2be90f5c, type: 2}

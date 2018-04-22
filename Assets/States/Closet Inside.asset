@@ -9,11 +9,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0cf6c2bb1d0a748d2a5aab7f152d1f7c, type: 3}
-  m_Name: Closet
+  m_Name: Closet Inside
   m_EditorClassIdentifier: 
   storyText: 'Inside the closet you see a cleaner''s uniform that looks about your
     size!  Seems like your day is looking-up
 
 
-    Press D to Dress up, or R to Return to the corridor'
-  nextStates: []
+    Press 0 to dress up, or 1 to return to the corridor.'
+  nextStates:
+  - {fileID: 11400000, guid: 89ceb2bf4da9c41a8a2bb7a30c4db078, type: 2}
+  - {fileID: 11400000, guid: 1830cf58efb1c494b925125a2be90f5c, type: 2}

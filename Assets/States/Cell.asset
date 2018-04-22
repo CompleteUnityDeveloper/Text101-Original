@@ -16,5 +16,5 @@ MonoBehaviour:
     outside.\n\nPress 0 to view Sheets, 1 to view mirror and 2 to view lock."
   nextStates:
   - {fileID: 11400000, guid: 91f2103f6fc064ed88108566ab01924f, type: 2}
-  - {fileID: 11400000, guid: 51583c980da6440ec8a0c6f2d761158a, type: 2}
+  - {fileID: 11400000, guid: 0a1dcefba72c54921b3600c2e88a235d, type: 2}
   - {fileID: 11400000, guid: 60c1dbe4564c34839bd1ee174ed03c71, type: 2}

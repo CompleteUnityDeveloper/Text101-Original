@@ -9,12 +9,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0cf6c2bb1d0a748d2a5aab7f152d1f7c, type: 3}
-  m_Name: Corridor 0
+  m_Name: Corridor
   m_EditorClassIdentifier: 
   storyText: 'You''re out of your cell, but not out of trouble.You are in the corridor,
     there''s a closet and some stairs leading to the courtyard. There''s also various
     detritus on the floor.
 
 
-    Press C to view the Closet, F to inspect the Floor, and S to climb the stairs'
-  nextStates: []
+    Press 0 to view the closet, 1 to inspect the floor, and 2 to climb the stairs.'
+  nextStates:
+  - {fileID: 11400000, guid: 5772b06cbe47944edac20cf3364789f7, type: 2}
+  - {fileID: 11400000, guid: 7b0031ea635134b5cb0412d38f79f3ff, type: 2}
+  - {fileID: 11400000, guid: a93d0268fa114442a99454dc0ada226f, type: 2}

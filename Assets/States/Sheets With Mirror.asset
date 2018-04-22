@@ -14,5 +14,5 @@ MonoBehaviour:
   storyText: 'Holding a mirror in your hand doesn''t make the sheets look any better.
 
 
-    Press R to Return to roaming your cell'
+    Press 0 to return to roaming your cell.'
   nextStates: []

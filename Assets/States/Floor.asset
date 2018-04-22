@@ -14,5 +14,7 @@ MonoBehaviour:
   storyText: 'Rummagaing around on the dirty floor, you find a hairclip.
 
 
-    Press R to Return to the standing, or H to take the Hairclip.'
-  nextStates: []
+    Press 0 to return to standing, or 1 to take the hairclip.'
+  nextStates:
+  - {fileID: 11400000, guid: 1830cf58efb1c494b925125a2be90f5c, type: 2}
+  - {fileID: 11400000, guid: 52e52f0d248834f25a811abf0989d8f2, type: 2}

@@ -15,5 +15,7 @@ MonoBehaviour:
     cleaner. You strongly consider the run for freedom.
 
 
-    Press S to take the Stairs, or U to Undress'
-  nextStates: []
+    Press 0 to take the stairs, or 1 to undress.'
+  nextStates:
+  - {fileID: 11400000, guid: 0d091f0b7621846e6ae0ec67990457cf, type: 2}
+  - {fileID: 11400000, guid: ef4f71307595e4b198f16d848ffe87ed, type: 2}

@@ -9,7 +9,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0cf6c2bb1d0a748d2a5aab7f152d1f7c, type: 3}
-  m_Name: Cell Mirror
+  m_Name: Cell Carrying Mirror
   m_EditorClassIdentifier: 
   storyText: 'You are still in your cell, and you STILL want to escape! There are
     some dirty sheets on the bed, a mark where the mirror was, and that pesky door
@@ -19,4 +19,4 @@ MonoBehaviour:
     Press 0 to view sheets, or 1 to view lock.'
   nextStates:
   - {fileID: 11400000, guid: 91f2103f6fc064ed88108566ab01924f, type: 2}
-  - {fileID: 11400000, guid: 60c1dbe4564c34839bd1ee174ed03c71, type: 2}
+  - {fileID: 11400000, guid: d227652eaf1274729ba359c10959cdbb, type: 2}

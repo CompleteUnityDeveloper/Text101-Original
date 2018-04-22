@@ -9,12 +9,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0cf6c2bb1d0a748d2a5aab7f152d1f7c, type: 3}
-  m_Name: Stairs 2
+  m_Name: Stairs Picked Lock
   m_EditorClassIdentifier: 
   storyText: 'You feel smug for picking the closet door open, and are still armed
     with a hairclip (now badly bent). Even these achievements together don''t give
     you the courage to climb up the staris to your death!
 
 
-    Press R to Return to the corridor'
-  nextStates: []
+    Press 0 to return to the corridor.'
+  nextStates:
+  - {fileID: 11400000, guid: 1830cf58efb1c494b925125a2be90f5c, type: 2}

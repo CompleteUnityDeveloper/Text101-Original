@@ -16,5 +16,7 @@ MonoBehaviour:
     press the dirty buttons, and hear a click.
 
 
-    Press O to Open, or R to Return to your cell'
-  nextStates: []
+    Press 0 to open, or 1 to return to your cell.'
+  nextStates:
+  - {fileID: 11400000, guid: 1830cf58efb1c494b925125a2be90f5c, type: 2}
+  - {fileID: 11400000, guid: 9b659dab1650d41fdb431699d6c09448, type: 2}

@@ -14,5 +14,7 @@ MonoBehaviour:
   storyText: 'Back in the corridor, having declined to dress-up as a cleaner.
 
 
-    Press C to revisit the Closet, and S to climb the stairs.'
-  nextStates: []
+    Press 0 to revisit the closet, and 1 to climb the stairs.'
+  nextStates:
+  - {fileID: 11400000, guid: 5772b06cbe47944edac20cf3364789f7, type: 2}
+  - {fileID: 11400000, guid: a93d0268fa114442a99454dc0ada226f, type: 2}

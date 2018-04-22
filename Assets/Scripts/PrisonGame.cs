@@ -8,7 +8,6 @@ public class PrisonGame : MonoBehaviour
     // configuration parameters
     [SerializeField] Text textComponent;
     [SerializeField] StateConfig startingState;
-    [SerializeField] StateConfig[] gameStates;
 
     // state variables
     StateConfig state;
@@ -28,7 +27,6 @@ public class PrisonGame : MonoBehaviour
 
     private void ManageState()
     {
-        // todo consdier switch
         var nextStates = state.GetNextStates();
         if (Input.GetKeyDown(KeyCode.Alpha0))
         {

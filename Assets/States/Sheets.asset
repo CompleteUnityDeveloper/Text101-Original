@@ -9,13 +9,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0cf6c2bb1d0a748d2a5aab7f152d1f7c, type: 3}
-  m_Name: Cell
+  m_Name: Sheets
   m_EditorClassIdentifier: 
-  storyText: 'You are in a prison cell, and you want to escape. There are some dirty
-    sheets on the bed, a mirror on the wall, and the door is locked from the outside.
+  storyText: 'You can''t believe you sleep in these things. Surely it''s time somebody
+    changed them. The pleasures of prison life I guess!
 
 
-    Press S to view Sheets, M to view Mirror and L to view Lock.'
+    Press 0 to return to roaming your cell.'
   nextStates:
-  - {fileID: 11400000}
-  - {fileID: 11400000, guid: 0a1dcefba72c54921b3600c2e88a235d, type: 2}
+  - {fileID: 11400000, guid: 9b659dab1650d41fdb431699d6c09448, type: 2}

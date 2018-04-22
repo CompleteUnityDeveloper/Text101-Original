@@ -7,11 +7,11 @@ public class PrisonGame : MonoBehaviour
 {
     // configuration parameters
     [SerializeField] Text textComponent;
-    [SerializeField] State startingState;
-    [SerializeField] State[] gameStates;
+    [SerializeField] StateConfig startingState;
+    [SerializeField] StateConfig[] gameStates;
 
     // state variables
-    State state;
+    StateConfig state;
 
     // Use this for initialization
     void Start()
@@ -23,18 +23,26 @@ public class PrisonGame : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        print("Current state: " + state.name);
         ManageState();
     }
 
     private void ManageState()
     {
+        // todo consdier switch
+        var nextStates = state.GetNextStates();
         if (Input.GetKeyDown(KeyCode.Alpha0))
         {
-            var nextStates = state.GetNextStates();
             state = nextStates[0];
-            textComponent.text = state.GetStateStory();
         }
-
+        else if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            state = nextStates[1];
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            state = nextStates[2];
+        }
+        // todo challenge to support more keys
+        textComponent.text = state.GetStateStory();
     }
 }

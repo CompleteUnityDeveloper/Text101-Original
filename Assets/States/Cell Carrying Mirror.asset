@@ -16,5 +16,7 @@ MonoBehaviour:
     is still there, and firmly locked!
 
 
-    Press S to view Sheets, or L to view Lock'
-  nextStates: []
+    Press 0 to view sheets, or 1 to view lock.'
+  nextStates:
+  - {fileID: 11400000, guid: 91f2103f6fc064ed88108566ab01924f, type: 2}
+  - {fileID: 11400000, guid: 60c1dbe4564c34839bd1ee174ed03c71, type: 2}

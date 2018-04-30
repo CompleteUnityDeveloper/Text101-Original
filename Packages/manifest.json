@@ -4,6 +4,7 @@
     "com.unity.analytics": "exclude",
     "com.unity.standardevents": "exclude",
     "com.unity.purchasing": "exclude",
-    "com.unity.textmeshpro": "1.2.2"
+    "com.unity.textmeshpro": "1.2.2",
+    "com.unity.postprocessing": "2.0.3-preview"
   }
 }
